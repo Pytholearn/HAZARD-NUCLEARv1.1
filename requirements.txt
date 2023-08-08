@@ -1,0 +1,11 @@
+pypiwin32
+rich
+pystyle
+pypiwin32
+pycryptodome
+subprocess32
+datetime
+pyperclip
+requests
+PyQt5
+pywin32
