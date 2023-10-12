@@ -9,3 +9,4 @@ pyperclip
 requests
 PyQt5
 pywin32
+urllib3
