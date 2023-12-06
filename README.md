@@ -10,7 +10,7 @@ How To Install & Run?
 
 1. Run CMD
    - ```git clone https://github.com/Pytholearn/HAZARD-NUCLEARv1.1```
-     - Wiat For Install All Library
+     - Wait For Install All Library
         - ```cd HAZARD-NUCLEARv1.1 ```
            -  ```setup.bat ```
               - Wait For Complete Install
